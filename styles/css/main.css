@@ -119,6 +119,61 @@ footer {
       background-color: #f24646;
       text-align: center; }
 
+.btn-custom {
+  color: #bdc3c7;
+  font-size: 18px;
+  border: 1px solid #bdc3c7; }
+
+.btn-custom:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff; }
+
+#stats-table {
+  padding-top: 50px; }
+  #stats-table .stats {
+    margin: 0;
+    padding: 0;
+    font-family: 'Robot', sans-serif; }
+    #stats-table .stats .stats-table {
+      padding-bottom: 1.5rem; }
+      #stats-table .stats .stats-table .stats-header {
+        position: relative;
+        background: #27388a;
+        padding: 22px 22px;
+        text-align: center;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px; }
+        #stats-table .stats .stats-table .stats-header .stats-title {
+          color: #ffffff;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          font-size: 24px;
+          text-align: center;
+          font-weight: 700; }
+        #stats-table .stats .stats-table .stats-header .stats-rate {
+          font-size: 70px;
+          font-weight: 700;
+          color: #ffffff;
+          position: relative;
+          text-align: center; }
+          #stats-table .stats .stats-table .stats-header .stats-rate span {
+            font-size: 16px;
+            color: #bdc3c7;
+            text-transform: uppercase; }
+    #stats-table .stats .stats-list {
+      background: #ffffff;
+      border: 1px solid #e3e3e3; }
+      #stats-table .stats .stats-list ul {
+        padding: 0px;
+        display: table;
+        margin: 0px auto; }
+        #stats-table .stats .stats-list ul li {
+          list-style: none;
+          border-bottom: 1px solid #EAECEB;
+          color: grey;
+          font-size: 1rem;
+          line-height: 42px; }
+
 /*historia.html*/
 #explicamelo img {
   width: 500px;
@@ -201,7 +256,7 @@ footer {
     transform: translate3d(0px, 0px, 0px); }
   .menuppal {
     display: block;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-image: linear-gradient(#27388a, black);
     bottom: 0;
     height: 100%;
     left: 0;
@@ -222,7 +277,7 @@ footer {
     font-size: 1.5rem;
     line-height: 3em;
     height: 3em;
-    color: #369;
+    color: white !important;
     text-transform: none;
     font-weight: bold; }
   .menuppal ul li a {
@@ -231,6 +286,15 @@ footer {
   .menuppal ul li a:hover {
     text-decoration: none;
     color: #333; }
+  #escudo_mini {
+    display: block;
+    width: 8rem;
+    height: 8rem; }
+  /*estadisticas.html*/
+  .card h4 {
+    font-size: 13px; }
+  .card h3 {
+    font-size: 11px; }
   /*historia.html*/
   #explicamelo img {
     width: 300px;
@@ -279,7 +343,7 @@ footer {
     -ms-user-select: none;
     user-select: none; }
   .hamburger.is-active {
-    background-color: none; }
+    background-color: #333333; }
   ._layer {
     background: #333333;
     margin-bottom: 4px;
@@ -313,7 +377,7 @@ footer {
     transform: translate3d(0px, 0px, 0px); }
   .menuppal {
     display: block;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-image: linear-gradient(#27388a, black);
     bottom: 0;
     height: 100%;
     left: 0;
@@ -334,7 +398,7 @@ footer {
     font-size: 1.5rem;
     line-height: 3em;
     height: 3em;
-    color: #369;
+    color: white;
     text-transform: none;
     font-weight: bold; }
   .menuppal ul li a {
@@ -346,9 +410,13 @@ footer {
   #escudo_mini {
     display: block;
     width: 8rem;
-    height: 8rem; } }
-
-/*historia.html*/
-#explicamelo img {
-  width: 400px;
-  height: 300px; }
+    height: 8rem; }
+  /*estadisticas.html*/
+  .card h4 {
+    font-size: 15px; }
+  .card h3 {
+    font-size: 13px; }
+  /*historia.html*/
+  #explicamelo img {
+    width: 400px;
+    height: 300px; } }

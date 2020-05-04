@@ -166,6 +166,72 @@ footer{
       }
 }
 
+.btn-custom {
+  color: #bdc3c7;
+  font-size: 18px;
+  border: 1px solid #bdc3c7;
+}
+.btn-custom:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+#stats-table {
+  padding-top: 50px;
+
+ .stats {
+      margin: 0;
+      padding: 0;
+      font-family: 'Robot', sans-serif;
+     .stats-table {
+            padding-bottom: 1.5rem;
+            .stats-header { 
+                   position: relative;
+                   background: $azulmafa;
+                   padding: 22px 22px;
+                   text-align: center;
+                   border-top-right-radius: 4px;
+                   border-top-left-radius: 4px;
+                   .stats-title {
+                       color: #ffffff;
+                       text-transform: uppercase;
+                       letter-spacing: 2px;
+                       font-size: 24px;
+                       text-align: center;
+                       font-weight: 700;
+                   }
+                   .stats-rate {
+                       font-size: 70px;
+                       font-weight: 700;
+                       color: #ffffff;
+                       position: relative;
+                       text-align: center;
+                       span {
+                             font-size: 16px;
+                             color: #bdc3c7;
+                             text-transform: uppercase;
+                       }
+                   }
+            }
+     }                  
+     .stats-list {
+               background: #ffffff;
+               border: 1px solid #e3e3e3;
+               ul {
+                 padding: 0px;
+                 display: table;
+                 margin: 0px auto;
+                 li {
+                     list-style: none;
+                     border-bottom: 1px solid #EAECEB;
+                     color: grey;
+                     font-size: 1rem;
+                     line-height: 42px;
+                 }
+               } 
+     }
+  }
+}                
+
 
 
 
@@ -279,7 +345,7 @@ body {
 }
 .menuppal{
   display: block;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-image: linear-gradient($azulmafa,black);
     bottom: 0;
     height: 100%;
     left: 0;
@@ -301,7 +367,7 @@ body {
   font-size:1.5rem;
   line-height:3em;
   height:3em;
-  color:#369;
+  color:white !important;
   text-transform:none;
   font-weight:bold;
 }
@@ -315,6 +381,22 @@ body {
 }
 
       
+#escudo_mini {
+  display: block;
+  width: 8rem;
+  height: 8rem;
+}
+
+/*estadisticas.html*/
+
+.card {
+     h4 {
+       font-size: 13px;
+     }
+     h3 {
+       font-size: 11px;
+     }
+}
 
 
 
@@ -370,7 +452,7 @@ footer {
   display: block;
   position:fixed;
   color: white;
-  background-color:transparent;
+  background-color: transparent;
   left:0;
   top:0;
   height:30px;
@@ -388,7 +470,7 @@ footer {
   user-select:none
 }
 .hamburger.is-active{
-  background-color:none;
+  background-color:#333333;
 }
 ._layer{
   background:#333333;
@@ -431,20 +513,21 @@ footer {
 }
 .menuppal{
   display: block;
-  background-color: rgba(255, 255, 255, 0.95);
-    bottom: 0;
-    height: 100%;
-    left: 0;
-    overflow-y: scroll;
-    position: fixed;
-    top: 0;
-    transform: translate3d(0px, -100%, 0px);
-    transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
-    width: 100%;
-    z-index: 1001;
+  background-image: linear-gradient($azulmafa,black);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  transform: translate3d(0px, -100%, 0px);
+  transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
+  width: 100%;
+  z-index: 1001;
 }
 .menuppal ul{
-  margin:0;padding:0;
+  margin:0;
+  padding:0;
 }
 .menuppal ul li { 
   list-style: none;
@@ -453,7 +536,7 @@ footer {
   font-size:1.5rem;
   line-height:3em;
   height:3em;
-  color:#369;
+  color: white;
   text-transform:none;
   font-weight:bold;
 }
@@ -472,11 +555,21 @@ footer {
   height: 8rem;
 }
 
-} 
+ 
+/*estadisticas.html*/
 
+.card {
+     h4 {
+       font-size: 15px;
+     }
+     h3 {
+       font-size: 13px;
+     }
+}
 
 /*historia.html*/
 #explicamelo img {
       width: 400px;
       height: 300px;
+}
 }
